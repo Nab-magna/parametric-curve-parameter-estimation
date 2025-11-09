@@ -7,7 +7,6 @@ $$
 x(t) &= t\cos(\theta) - e^{M|t|}\sin(0.3\,t)\sin(\theta) + X \\
 y(t) &= 42 + t\sin(\theta) + e^{M|t|}\sin(0.3\,t)\cos(\theta)
 \end{aligned}
-$$
 
 ### Parameter Constraints
 | Parameter | Range / Purpose |
@@ -56,6 +55,7 @@ $$
 
 This converts the original 2D fitting problem into a simpler 1D function fitting problem.
 
+$$
 ### Optimization Approach
 
 | Stage | Method | Purpose |
