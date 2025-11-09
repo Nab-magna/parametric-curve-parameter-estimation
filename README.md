@@ -9,14 +9,17 @@ y(t) &= 42 + t\sin(\theta) + e^{M|t|}\sin(0.3\,t)\cos(\theta)
 \end{aligned}
 $$
 
-### Parameter Constraints
-| Parameter | Range / Purpose |
+$$
+\begin{aligned}
+| Parameter | Purpose |
 |---|---|
-| \($$ 0^\circ < \theta < 50^\circ\ $$) | Rotation angle |
+| \( 0^($$\circ$$) < \theta < 50^($$\circ$$) ) | Rotation angle |
 | \(-0.05 < M < 0.05\) | Exponential modulation strength |
 | \(0 < X < 100\) | Horizontal translation |
-| \($$ t \in (6, 60)\ $$) | Sampling range used to generate the dataset |
+| \($$ t (\in) (6, 60)\ $$) | Sampling range used to generate the dataset |
 
+\end{aligned}
+$$
 A total of **1500 \((x,y)\)** points were provided and used for parameter recovery.
 
 ---
