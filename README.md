@@ -1,6 +1,6 @@
 # Parameter Estimation for a Rotated Parametric Curve
 
-This repository documents the estimation of the parameters \(\theta\), \(M\), and \(X\) for the following parametric curve:
+This repository documents the estimation of the parameters $$(\theta)$$, M, and X for the following parametric curve:
 
 $$
 \begin{aligned}
@@ -12,10 +12,10 @@ $$
 
 | Parameter | Purpose |
 |---|---|
-| \( $$ (0^(\circ))$$ < $$\theta$$ < $$ (50^(\circ))$$ ) | Rotation angle |
+| \( (0^$$(\circ)$$) < $$(\theta)$$ < $$ (50^($$(\circ)$$) ) | Rotation angle |
 | \(-0.05 < M < 0.05\) | Exponential modulation strength |
 | \(0 < X < 100\) | Horizontal translation |
-| \(t $$\in$$ (6, 60)\) | Sampling range used to generate the dataset |
+| \(t $$(\in)$$ (6, 60)\) | Sampling range used to generate the dataset |
 
 
 A total of **1500 \((x,y)\)** points were provided and used for parameter recovery.
@@ -26,8 +26,8 @@ A total of **1500 \((x,y)\)** points were provided and used for parameter recove
 
 | Parameter | Estimated Value |
 |---|---|
-| $$ \theta (radians) $$| **0.52365426** |
-| $$ \theta (degrees) $$| **30.00317889°** |
+| $$ (\theta)$$ (radians) | **0.52365426** |
+| $$ (\theta)$$ (degrees) | **30.00317889°** |
 | \(M\) | **0.03000373** |
 | \(X\) | **55.00414799** |
 
