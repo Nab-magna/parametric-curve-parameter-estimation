@@ -12,7 +12,7 @@ $$
 
 | Parameter | Purpose |
 |---|---|
-| \( (0^($$(\circ)$$) < $$(\theta)$$ < $$ (50^($$(\circ)$$) ) | Rotation angle |
+| \( (0^($$(\circ)$$) < $$(\theta)$$ < (50^($$(\circ)$$) ) | Rotation angle |
 | \(-0.05 < M < 0.05\) | Exponential modulation strength |
 | \(0 < X < 100\) | Horizontal translation |
 | \(t $$(\in)$$ (6, 60)\) | Sampling range used to generate the dataset |
